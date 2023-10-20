@@ -1,0 +1,36 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: #071e26;
+    color: white;
+  }
+  
+  body > * {}
+  
+  .navbar-brand span {
+    display: inline-block;
+    transform: rotate(35deg);
+    margin: 0 5px;
+    color: white;
+  }
+  
+  .btn-1 {
+    background-color: red;
+    color: cornflowerblue;
+  }
+  
+  .btn-2 {
+    background-color: cornflowerblue;
+    color: red;
+  }
+  
+  .btn-3 {
+    background-color: yellow;
+    color: green;
+  }
+  
+  .btn-4 {
+    background-color: green;
+    color: yellow;
+  }
